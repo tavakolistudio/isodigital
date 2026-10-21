@@ -7,3 +7,4 @@ node_modules/
 cloudflare-env.d.ts
 *.tgz
 *.tsbuildinfo
+cloudflare-build*.log
