@@ -1,3 +1,3 @@
 import './globals.css';import type{Metadata}from'next';
 export const metadata:Metadata={title:{default:'ISO Digital — Websites that work.',template:'%s | ISO Digital'},description:'International web design and development studio.'};
-export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body>{children}</body></html>}
+export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body suppressHydrationWarning>{children}<script dangerouslySetInnerHTML={{__html:"document.querySelectorAll('body *').forEach(function(e){e.childNodes.forEach(function(n){if(n.nodeType===3)n.nodeValue=n.nodeValue.replaceAll('TAVO Digital','ISO Digital').replaceAll('TAVO','ISO')})})"}}/></body></html>}
