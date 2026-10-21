@@ -1,0 +1,2 @@
+# Local Workers-runtime secrets. Never commit the real .dev.vars file.
+LEADS_WEBHOOK_URL=
