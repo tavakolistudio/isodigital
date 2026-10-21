@@ -1,6 +1,7 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "iso-digital",
+  "account_id": "2e3a13d4d8dd34cdf3e19c8e1ed286ad",
   "main": ".open-next/worker.js",
   "compatibility_date": "2026-10-21",
   "compatibility_flags": ["nodejs_compat"],
